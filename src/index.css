@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'Buffalo';
+    src: url('./assets/Buffalo.otf') format('opentype');
+  }
+
+/* body
+{
+    font-family: 'Inter', sans-serif;
+} */
+.custom-class {
+    font-family: 'Buffalo', sans-serif;
+  }
